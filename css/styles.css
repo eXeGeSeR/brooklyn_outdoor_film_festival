@@ -1,0 +1,74 @@
+body {
+  margin: auto;
+  width: 100%;
+}
+
+nav#navbar2 button {
+  margin-left: 10px;
+}
+
+section#background img {
+  width: 100%;
+  max-height: 750px;
+  overflow: hidden;
+}
+
+.btn-toolbar {
+  position: relative;
+  bottom: 15%;
+}
+
+section#background div.btn-toolbar button a:link,
+section#background div.btn-toolbar button a:hover,
+section#background div.btn-toolbar button a:visited,
+section#background div.btn-toolbar button a:active {
+  text-decoration: none;
+  color: #fff;
+}
+
+section#programme .container-fluid {
+  padding: 0 100px 0 100px;
+}
+
+section#programme img {
+  width: 100%;
+}
+
+section#programme .modal-header h4.modal-title,
+section#programme .modal-header h3.modal-title {
+  margin: 0 auto;
+}
+
+section#programme .modal-body img:hover {
+  opacity: 0.5;
+}
+
+section#programme .modal-footer .btn-toolbar {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+}
+
+
+
+nav#navbar3 p,
+nav#navbar3 div.social {
+	margin: 0 auto;
+  color: white;
+}
+
+nav#navbar3 div.social {
+  display: inline-grid;
+}
+
+footer {
+  margin-top: 25px;
+}
+
+footer .social ul {
+  flex-direction: row;
+}
+
+footer .social li.nav-item {
+  padding: 5px !important;
+}
